@@ -1,4 +1,4 @@
-import { FavouriteComponent } from './favourite.component';
+import { FavoriteComponent } from './favorite/favorite.component';
 import { SummaryPipe } from './summary.pipe';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -14,7 +14,7 @@ import { CoursesService } from './courses.service';
     CoursesComponent,
     CourseComponent,
     SummaryPipe,
-    FavouriteComponent
+    FavoriteComponent
   ],
   imports: [
     BrowserModule,
