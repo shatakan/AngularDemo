@@ -1,3 +1,5 @@
-.glyphicon {
+@import "~font-awesome/css/font-awesome.css";
+
+.fa-star {
     color: red;
 }
