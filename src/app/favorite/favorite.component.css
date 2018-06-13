@@ -1,5 +1,10 @@
 @import "~font-awesome/css/font-awesome.css";
+@import "~bootstrap/dist/css/bootstrap.css";
 
 .fa-star {
     color: red;
+}
+
+.glyphicon {
+    color: blue;
 }

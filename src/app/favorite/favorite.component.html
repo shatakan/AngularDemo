@@ -1,7 +1,13 @@
 
 <span 
-    class="fa fa-star" aria-hidden="true"
-    [class.fa-star]="isSelected"
-    [class.fa-star-empty]="!isSelected" 
+    class="glyphicon"
+    [class.glyphicon-star]="isSelected"
+    [class.glyphicon-star-empty]="!isSelected" 
     (click)="onClick()"
 ></span>
+
+<style>
+    .glyphicon {
+        color: blue;
+    }
+</style>
