@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact-form.component.css']
 })
 export class ContactFormComponent {
+  contactMethods = [
+    { id: 1, name: 'Email' id: 2, name: 'Phone', id: 3, name: 'Text'}
+  ];
   log(x) {console.log(x); }
   submit(f) {
     console.log(f);

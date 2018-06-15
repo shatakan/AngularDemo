@@ -11,5 +11,5 @@ export class AppComponent {
     assignee: {
       name: 'John Smith'
     }
-  }
+  };
 }

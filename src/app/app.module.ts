@@ -1,3 +1,4 @@
+import { HttpModule } from '@angular/http';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { SummaryPipe } from './summary.pipe';
 import { FormsModule } from '@angular/forms';
@@ -10,6 +11,8 @@ import { CoursesService } from './courses.service';
 import { PanelComponent } from './panel/panel.component';
 import { InputFormatDirective } from './input-format.directive';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { SignupFormComponent } from './signup-form/signup-form.component';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +23,14 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
     FavoriteComponent,
     PanelComponent,
     InputFormatDirective,
-    ContactFormComponent
+    ContactFormComponent,
+    SignupFormComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
   providers: [
     CoursesService
